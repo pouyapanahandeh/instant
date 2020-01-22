@@ -5,6 +5,7 @@
         color="white"
         elevate-on-scroll
         scroll-target="#scrolling-techniques-7"
+        flat
         >
         <v-toolbar-title>Instant</v-toolbar-title>
 
