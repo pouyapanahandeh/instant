@@ -9,6 +9,10 @@ This wpa design for having simple application that make user able to transfer fi
 
 
 
+## Project Development
+
+Each part of the project has the different branch from the commit number 63805bf.
+
 ## Project setup
 ```
 npm install
