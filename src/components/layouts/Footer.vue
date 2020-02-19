@@ -24,7 +24,7 @@
         </v-btn>
       </v-card-title>
 
-      <v-card-text class="py-2 white--text text-center">
+      <v-card-text color="grey darken-3" class="py-2 white--text text-center">
         {{ new Date().getFullYear() }}  <strong>Instant</strong> By WAAC
       </v-card-text>
     </v-card>

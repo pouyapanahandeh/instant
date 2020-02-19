@@ -4,7 +4,7 @@
             <v-col cols="1"></v-col>
             <v-col cols="4" align-self="center">
                 <v-container fluid>
-                    <v-tabs>
+                    <v-tabs centered show-arrows>
                         <v-tab>Send File</v-tab>
                             <v-tab-item>
                                 <v-container>
