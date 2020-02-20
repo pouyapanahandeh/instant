@@ -1,30 +1,23 @@
 <template>
     <div>    
-        <v-app-bar
-        absolute
-        color="white"
-        elevate-on-scroll
-        scroll-target="#scrolling-techniques-7"
-        flat
-        >
-        <v-toolbar-title>Instant</v-toolbar-title>
+        <v-app-bar absolute color="white" elevate-on-scroll scroll-target="#scrolling-techniques-7" flat>
+          <v-container>
+            <v-row>
+              <v-toolbar-title>Instant</v-toolbar-title>
+                <v-spacer></v-spacer>
 
-        <v-spacer></v-spacer>
+                <v-btn @click.stop="dialog = true" icon>
+                    <v-icon>mdi-lightbulb-on-outline</v-icon>
+                </v-btn>
 
-        <v-btn @click.stop="dialog = true" icon>
-            <v-icon>mdi-lightbulb-on-outline</v-icon>
-        </v-btn>
-
-        <v-btn color="mainColor" class="mx-4">
-            <v-icon>mdi-cube-send</v-icon>
-        </v-btn>
+                <v-btn color="mainColor" class="mx-4">
+                    <v-icon>mdi-cube-send</v-icon>
+                </v-btn>
+            </v-row>
+          </v-container>
         </v-app-bar>
         
-        <v-dialog
-        v-model="dialog"
-        max-width="600"
-        id="org_border"
-        >
+        <v-dialog v-model="dialog" max-width="600" id="org_border">
           <v-row justify="center">
             <v-card id="main">
                 <v-container>
